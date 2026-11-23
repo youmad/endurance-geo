@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Youmad\Endurance\Geo;
+namespace Endurance\Geo;
 
-use Youmad\Endurance\Foundation\ValueObject\Coordinate;
+use Endurance\Foundation\ValueObject\Coordinate;
 
 /** A place to visit; adjacency does not assert a known connecting path. */
 final readonly class ViaPoint

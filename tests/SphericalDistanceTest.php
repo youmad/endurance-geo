@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Youmad\Endurance\Geo\Tests;
+namespace Endurance\Geo\Tests;
 
+use Endurance\Foundation\ValueObject\Coordinate;
+use Endurance\Geo\SphericalDistance;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
-use Youmad\Endurance\Foundation\ValueObject\Coordinate;
-use Youmad\Endurance\Geo\SphericalDistance;
 
 final class SphericalDistanceTest extends TestCase
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Youmad\Endurance\Geo;
+namespace Endurance\Geo;
 
 /** Keep one instance across pages of the same path. */
 final class PathSequence

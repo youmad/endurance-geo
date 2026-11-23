@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-use Youmad\Endurance\Foundation\ValueObject\Coordinate;
-use Youmad\Endurance\Geo\PathGeometry;
-use Youmad\Endurance\Geo\PathLength;
-use Youmad\Endurance\Geo\PathPoint;
-use Youmad\Endurance\Geo\PathPosition;
+use Endurance\Foundation\ValueObject\Coordinate;
+use Endurance\Geo\PathGeometry;
+use Endurance\Geo\PathLength;
+use Endurance\Geo\PathPoint;
+use Endurance\Geo\PathPosition;
 
 require $argv[1] ?? dirname(__DIR__).'/vendor/autoload.php';
 

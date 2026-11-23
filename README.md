@@ -3,12 +3,12 @@
 Streaming path geometry, ordered via points and horizontal distance for PHP 8.5.
 
 ```bash
-composer require youmad/endurance-geo
+composer require endurance/geo
 ```
 
 ```php
-use Youmad\Endurance\Foundation\ValueObject\Coordinate;
-use Youmad\Endurance\Geo\{PathGeometry, PathLength, PathPoint, PathPosition};
+use Endurance\Foundation\ValueObject\Coordinate;
+use Endurance\Geo\{PathGeometry, PathLength, PathPoint, PathPosition};
 
 $path = new PathGeometry([
     new PathPoint(new PathPosition(0, 0), new Coordinate(0.0, 179.0)),

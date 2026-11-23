@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Youmad\Endurance\Geo;
+namespace Endurance\Geo;
 
-use Youmad\Endurance\Foundation\ValueObject\Coordinate;
+use Endurance\Foundation\ValueObject\Coordinate;
 
 /** Adjacent points in the same part describe a continuous geometric edge. */
 final readonly class PathPoint

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Youmad\Endurance\Geo;
+namespace Endurance\Geo;
 
 /** Constant-memory measurement; retain the same instance between successive pages. */
 final class PathLength

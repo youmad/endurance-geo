@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Youmad\Endurance\Geo;
+namespace Endurance\Geo;
 
 /** @implements \IteratorAggregate<int, ViaPoint> */
 final readonly class ViaPoints implements \IteratorAggregate

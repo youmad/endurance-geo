@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace Youmad\Endurance\Geo\Tests;
+namespace Endurance\Geo\Tests;
 
+use Endurance\Foundation\ValueObject\Coordinate;
+use Endurance\Geo\Elevation;
+use Endurance\Geo\ElevationOrigin;
+use Endurance\Geo\PathGeometry;
+use Endurance\Geo\PathLength;
+use Endurance\Geo\PathPoint;
+use Endurance\Geo\PathPosition;
+use Endurance\Geo\PathSequence;
+use Endurance\Geo\ViaPoint;
+use Endurance\Geo\ViaPoints;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
-use Youmad\Endurance\Foundation\ValueObject\Coordinate;
-use Youmad\Endurance\Geo\Elevation;
-use Youmad\Endurance\Geo\ElevationOrigin;
-use Youmad\Endurance\Geo\PathGeometry;
-use Youmad\Endurance\Geo\PathLength;
-use Youmad\Endurance\Geo\PathPoint;
-use Youmad\Endurance\Geo\PathPosition;
-use Youmad\Endurance\Geo\PathSequence;
-use Youmad\Endurance\Geo\ViaPoint;
-use Youmad\Endurance\Geo\ViaPoints;
 
 final class GeometryTest extends TestCase
 {

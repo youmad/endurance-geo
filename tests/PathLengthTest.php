@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Youmad\Endurance\Geo\Tests;
+namespace Endurance\Geo\Tests;
 
+use Endurance\Foundation\ValueObject\Coordinate;
+use Endurance\Geo\Elevation;
+use Endurance\Geo\PathGeometry;
+use Endurance\Geo\PathLength;
+use Endurance\Geo\PathPoint;
+use Endurance\Geo\PathPosition;
+use Endurance\Geo\SphericalDistance;
 use PHPUnit\Framework\TestCase;
-use Youmad\Endurance\Foundation\ValueObject\Coordinate;
-use Youmad\Endurance\Geo\Elevation;
-use Youmad\Endurance\Geo\PathGeometry;
-use Youmad\Endurance\Geo\PathLength;
-use Youmad\Endurance\Geo\PathPoint;
-use Youmad\Endurance\Geo\PathPosition;
-use Youmad\Endurance\Geo\SphericalDistance;
 
 final class PathLengthTest extends TestCase
 {
