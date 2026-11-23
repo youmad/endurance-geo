@@ -1,0 +1,28 @@
+{
+    "name": "youmad/endurance-geo",
+    "description": "Streaming path geometry and spherical distance calculations",
+    "type": "library",
+    "license": "MPL-2.0",
+    "require": {
+        "php": "^8.5",
+        "youmad/endurance-foundation": "^0.1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Youmad\\Endurance\\Geo\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Youmad\\Endurance\\Geo\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.5"
+    },
+    "scripts": {
+        "test": "phpunit",
+        "example": "@php examples/measure-path.php",
+        "check": ["@composer validate --strict", "@test", "@example"]
+    }
+}
